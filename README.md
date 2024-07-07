@@ -19,7 +19,7 @@ You can play against three kinds of opponents:
 - Easy Bot: Randomizes the next move.
 - Hard Bot: Uses the minimax algorithm to find the optimal move.
 
-[Demonstration video.](#)
+[Demonstration video.](https://www.youtube.com/embed/dHzIr5z0Uvs)
 
 ## How the minimax algorithm works
 The minimax algorithm is a recursive algorithm that simulates every possible move. The score that is returned when I win would be 1 and the score that is returned when my opponent wins is -1. The score is 0 when nobody has won yet and it is not a draw. We will refer to the number of moves as depth. The algorithm tries every available move at one depth and if it is my turn, picks the move with the highest score. The algorithm picks the lowest score for if it is my opponent's turn. The idea is that the algorithm picks the best move for me and the best move for the opponent since the lowest score is the best score for my opponent. It does this until all possible moves are calculated. If there are multiple highest scores, it arbitrarily picks a highest score.

@@ -32,3 +32,8 @@ The first version I created used the terminal for user interface. I then switche
    ```bash
    pip install pyqt5
    pip install pyqt5-tools
+   
+## Technologies involved
+- Python
+- [PyQt5](https://pypi.org/project/PyQt5/)
+- [PyInstaller](https://pypi.org/project/pyinstaller/)

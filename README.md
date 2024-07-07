@@ -41,6 +41,20 @@ The first version I created used the terminal for user interface. I then switche
 
    ```bash
    pyuic5 -x filename.ui -o filename.py
+
+5. Edit the python file to add functionality.
+
+6. Download PyInstaller
+
+   ```bash
+   pip install pyinstaller
+
+7. Convert the python file into an executable file. Note that this converts to an executable file only compatible with your operating system. I used Linux, so the executable file in this repository is only compatible with Linux. Also note that the file size may be large since it adds all of PyQt5 into the executable file. There is no way around this issue at the moment.
+
+   ```bash
+   pyinstaller --onefile filename.py
+
+Now you will have the executable file!
    
 ## Technologies involved
 - Python

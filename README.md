@@ -32,6 +32,15 @@ The first version I created used the terminal for user interface. I then switche
    ```bash
    pip install pyqt5
    pip install pyqt5-tools
+
+2. Design the windows in designer. The app can be found inside the site-packages folder inside your python folder. This is PyQt5's drag-and-drop style application that allows you to build the interface.
+
+3. Save the design as a .ui file.
+
+4. Convert the .ui file into a python file with the following command:
+
+   ```bash
+   pyuic5 -x filename.ui -o filename.py
    
 ## Technologies involved
 - Python
